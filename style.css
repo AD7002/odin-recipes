@@ -1,0 +1,56 @@
+*{
+    background-color: beige;
+    color: orangered
+}
+#main { color: orangered;
+    font-family: 'Gill Sans'    
+}
+
+p,li,ol,ul{
+    text-align: center;
+    font-weight: 600;
+}
+
+.images {
+    padding: 0px;
+    border: 5px solid rgb(234, 137, 137);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+h1 {
+    color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    font-size: 30px ;
+    text-align: center;
+}
+
+p{
+    font-family: 'Gill Sans';
+    font-size: 25px;
+    color: orangered;
+}
+
+ul,ol {
+    font-family: 'Gill Sans';
+    font-size: 25px;
+    color: orangered;
+
+}
+
+li {
+    
+    font-family: 'Gill Sans';
+    font-size: 18px;
+    color: orangered;
+}
+
+span{
+    display: block;
+    font-family: 'gill sans';
+    font-size: large;
+    font-weight: 700;
+    margin: 0;
+}
