@@ -1,36 +1,39 @@
 *{
     background-color: beige;
-    color: orangered
+    color: orangered;
+    font-family: 'Gill Sans';
+    margin: 0px;
+    padding: 0px;
 }
-#main { color: orangered;
-    font-family: 'Gill Sans'    
+
+
+.paragraph {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 p,li,ol,ul{
-    text-align: center;
+    
     font-weight: 600;
 }
 
-.images {
+img {
     padding: 0px;
     border: 5px solid rgb(234, 137, 137);
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    margin: auto;
+    display:block ;
 }
 
 
 h1 {
-    color: orangered;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
     font-size: 30px ;
     text-align: center;
 }
 
 p{
-    font-family: 'Gill Sans';
+
     font-size: 25px;
-    color: orangered;
 }
 
 ul,ol {
@@ -41,16 +44,77 @@ ul,ol {
 }
 
 li {
-    
-    font-family: 'Gill Sans';
     font-size: 18px;
-    color: orangered;
-}
+   }
 
 span{
-    display: block;
+
     font-family: 'gill sans';
     font-size: large;
     font-weight: 700;
     margin: 0;
 }
+
+nav {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+border: 2px dotted orange;
+width: 300px;
+
+}
+
+nav li a {
+
+    list-style-type:none;
+    padding: 0px;
+    text-decoration: none;
+
+}
+
+
+
+
+nav a:hover{
+    background-color: lightgoldenrodyellow;
+    border-radius: 4px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin:0 ;
+    width: 300px;
+
+}
+
+.ingredients {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px dotted rgb(128, 128, 29);
+    align-items: center;
+    padding: 50px;
+    margin: 0px;
+    gap: 1rem
+    width: 400px;
+
+}
+
+.steps {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px dotted purplergb(128, 128, 29);
+    padding: 50px;
+    margin: 0px;
+    width: ;
+    font-display:initial;
+    gap: 1rem
+}
+
